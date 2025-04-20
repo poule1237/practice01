@@ -18,14 +18,5 @@ public class Ex28 {
 		
 		System.out.println("받으실달러는 " + dollars);
 		
-		System.out.print("환전할 원화를 입력하세요");
-		
-		double money = sc.nextDouble();
-		
-		double exchangerate = money / $;
-		
-		System.out.println("받으실달러는 " + exchangerate);
-		
-		sc.close();
 	}
 }
